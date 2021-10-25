@@ -79,7 +79,7 @@ O atributo "`autocomplete="off""` foi usado em entradas específicas para prote�
 
 O atributo  "`onkeydown`" foi usado para executar a função de preenchimento dos pontos e ífem da máscara do cpf. 
 O comando onblur="pesquisacep(this.value);" possue um evento "onblur" que checa se o CEP é válido ou não e também preenche todos os campos de endereço de forma automática. 
-
+O comando `<input type="reset" id="limpar" value="Limpar dados" />` é um botão com valor de reset, ou seja,limpa o formulário
 O comando `<input id="cadastrar" type="submit" value="Enviar dados">` é um botão de submissão com um valor para renderizar
 
 O comando `<script type="text/javascript" src="js/script.js"></script>` é elemento para anexar o arquivo externo em JavaScript e define o tipo de documento
@@ -88,7 +88,9 @@ O comando `<script type="text/javascript" src="js/script.js"></script>` é eleme
 
 ### JavaScript
 
-Foi usado nesse projeto a API do ViaCep,, com algumas adaptações estruturais. 
+Foi desenvolvido para esse projeto 3 máscaras em javascript para os campos: Cpf, telefone fixo e telefone celular.
+
+Foi usado nesse projeto a API do ViaCep.
 
 No fim, na última função, temos um comando `window.location.href`, que encaminha para próxima página de mensagem enviada com sucesso. 
 
@@ -104,5 +106,7 @@ Vídeos da trilha de aprendizagem da Gama Academy, e apostilas diversas.
 
 ### CSS
 
-Método de acerto e erro, visto ser deficiente visual total e não ter uma exata noção do visual, com a colaboração de pessoas que veem.
+https://www.devmedia.com.br/css3-flexbox-funcionamento-e-propriedades/29532
+
+E método de erro e acerto, visto ser deficiente visual total e não ter uma exata noção do visual, com a colaboração de pessoas que veem.
 
